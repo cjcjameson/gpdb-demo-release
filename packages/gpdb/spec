@@ -1,0 +1,7 @@
+---
+name: gpdb
+
+dependencies: []
+
+files:
+- gpdb/*

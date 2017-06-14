@@ -1,0 +1,5 @@
+check process web_ui
+  with pidfile /var/vcap/sys/run/gpdb/pid
+  start program "/var/vcap/jobs/gpdb/bin/run-demo-cluster start"
+  stop program "/var/vcap/jobs/gpdb/bin/run-demo-cluster stop"
+  group vcap

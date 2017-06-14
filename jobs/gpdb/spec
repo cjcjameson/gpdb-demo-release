@@ -1,0 +1,10 @@
+---
+name: gpdb
+
+templates:
+  run-demo-cluster: bin/run-demo-cluster 
+
+packages:
+- gpdb
+
+properties: {}

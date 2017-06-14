@@ -1,0 +1,3 @@
+[submodule "src/gpdb"]
+	path = src/gpdb
+	url = git@github.com:greenplum-db/gpdb.git

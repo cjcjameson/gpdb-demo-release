@@ -1,0 +1,19 @@
+name: gpdb-release-from-src
+version: 0+dev.1
+commit_hash: 519d436
+uncommitted_changes: true
+jobs:
+- name: gpdb
+  version: da51dae31081461f6bd4aa0c3cc85e803db039b7
+  fingerprint: da51dae31081461f6bd4aa0c3cc85e803db039b7
+  sha1: 98c40c0d00723ffe29c4d3158946267573d6e242
+packages:
+- name: gpdb
+  version: 6c9a494453a56f4a337b1fb5620ec164cfc6d7e8
+  fingerprint: 6c9a494453a56f4a337b1fb5620ec164cfc6d7e8
+  sha1: ec0981cb61b9d57f7a4f74e69eeb2d402dfca3c2
+  dependencies: []
+license:
+  version: e6c4ccc65c76e75e2338d1edabdcf264d37ee663
+  fingerprint: e6c4ccc65c76e75e2338d1edabdcf264d37ee663
+  sha1: d9fd29cfb10792cfb9568ec2b0b7a8c457a491d9

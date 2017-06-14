@@ -1,0 +1,7 @@
+set -e
+
+pushd gpdb
+  ./configure --with-perl --with-python --with-libxml --without-orca --prefix=${BOSH_INSTALL_TARGET}
+  make
+  make install
+popd
